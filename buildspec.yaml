@@ -9,4 +9,3 @@ phases:
     commands:
       - cd $CODEBUILD_SRC_DIR
       - ls
-      - touch abx.txt
