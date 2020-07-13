@@ -9,8 +9,3 @@ phases:
     commands:
       - cd $CODEBUILD_SRC_DIR
       - ls
-
-artifacts:
-  files:
-    - IAMROle2.yaml
-  base-directory: $CODEBUILD_SRC_DIR
